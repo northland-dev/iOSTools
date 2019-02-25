@@ -97,7 +97,6 @@
 		040A621E221AB1050049DAE6 /* FSMessageUnRead.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A6027221AB1030049DAE6 /* FSMessageUnRead.m */; };
 		040A621F221AB1050049DAE6 /* FSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A6029221AB1030049DAE6 /* FSBaseViewController.m */; };
 		040A6220221AB1050049DAE6 /* FSNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A602D221AB1030049DAE6 /* FSNetworkReachabilityManager.m */; };
-		040A6221221AB1050049DAE6 /* FSBaseRequestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A6030221AB1030049DAE6 /* FSBaseRequestApi.m */; };
 		040A6222221AB1050049DAE6 /* LewPopupViewAnimationFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A6036221AB1040049DAE6 /* LewPopupViewAnimationFade.m */; };
 		040A6223221AB1050049DAE6 /* UIViewController+LewPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A6039221AB1040049DAE6 /* UIViewController+LewPopupViewController.m */; };
 		040A6224221AB1050049DAE6 /* LewPopupViewAnimationSpring.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A603A221AB1040049DAE6 /* LewPopupViewAnimationSpring.m */; };
@@ -477,8 +476,6 @@
 		040A602A221AB1030049DAE6 /* FSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseViewController.h; sourceTree = "<group>"; };
 		040A602C221AB1030049DAE6 /* FSNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		040A602D221AB1030049DAE6 /* FSNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		040A602F221AB1030049DAE6 /* FSBaseRequestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseRequestApi.h; sourceTree = "<group>"; };
-		040A6030221AB1030049DAE6 /* FSBaseRequestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseRequestApi.m; sourceTree = "<group>"; };
 		040A6033221AB1040049DAE6 /* LewPopupViewAnimationSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewPopupViewAnimationSpring.h; sourceTree = "<group>"; };
 		040A6034221AB1040049DAE6 /* UIViewController+LewPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LewPopupViewController.h"; sourceTree = "<group>"; };
 		040A6035221AB1040049DAE6 /* LewPopupViewAnimationDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewPopupViewAnimationDrop.h; sourceTree = "<group>"; };
@@ -1457,7 +1454,6 @@
 				040A6025221AB1030049DAE6 /* MessageNumber */,
 				040A6028221AB1030049DAE6 /* CommonController */,
 				040A602B221AB1030049DAE6 /* FSNetworkReachability */,
-				040A602E221AB1030049DAE6 /* CommonReuqest */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1465,8 +1461,8 @@
 		040A5FF2221AB1030049DAE6 /* GlobalLauncher */ = {
 			isa = PBXGroup;
 			children = (
-				040A5FF3221AB1030049DAE6 /* FSGlobalLauncher.m */,
 				040A5FF4221AB1030049DAE6 /* FSGlobalLauncher.h */,
+				040A5FF3221AB1030049DAE6 /* FSGlobalLauncher.m */,
 			);
 			path = GlobalLauncher;
 			sourceTree = "<group>";
@@ -1633,15 +1629,6 @@
 				040A602D221AB1030049DAE6 /* FSNetworkReachabilityManager.m */,
 			);
 			path = FSNetworkReachability;
-			sourceTree = "<group>";
-		};
-		040A602E221AB1030049DAE6 /* CommonReuqest */ = {
-			isa = PBXGroup;
-			children = (
-				040A602F221AB1030049DAE6 /* FSBaseRequestApi.h */,
-				040A6030221AB1030049DAE6 /* FSBaseRequestApi.m */,
-			);
-			path = CommonReuqest;
 			sourceTree = "<group>";
 		};
 		040A6031221AB1040049DAE6 /* Tools */ = {
@@ -3238,7 +3225,6 @@
 				040A61E4221AB1040049DAE6 /* FSWebViewController.m in Sources */,
 				040A5F55221AA1C80049DAE6 /* UITextView+Placeholder.m in Sources */,
 				040A61F9221AB1040049DAE6 /* FSGlobalEmptyDataView.m in Sources */,
-				040A6221221AB1050049DAE6 /* FSBaseRequestApi.m in Sources */,
 				040A62A9221AB1050049DAE6 /* FSCheckPhotosPrivileges.m in Sources */,
 				040A61E8221AB1040049DAE6 /* FSChatTextView.m in Sources */,
 			);

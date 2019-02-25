@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FSBaseServer : NSObject <EventHandlerDelegate>
-
-@property (nonatomic, weak) EventHandler *eventHandler;
-@property (nonatomic, strong) EventHandler *eventHandlerSelf;
-
-- (FSBaseServer *(^)(EventHandler *eventHandler))setEvenHandler;
+@interface FSBaseServer : NSObject
 
 @end
