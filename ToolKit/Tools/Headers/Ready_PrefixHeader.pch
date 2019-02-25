@@ -1,0 +1,70 @@
+//
+//  Ready_PrefixHeader.pch
+//  Ready
+//
+//  Created by mac on 2018/7/17.
+//  Copyright © 2018年 Fission. All rights reserved.
+//
+
+#ifndef Ready_PrefixHeader_pch
+#define Ready_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "GTCommont.h"
+#import "FSGlobalLauncher.h"
+#import "FSFunctionsHeader.h"
+//#import "Ready_IgnoreHeader.h"
+#import "FSCommenDefine.h"
+#import "YKServerAPIConst.h"
+#import "FSNotificationNames.h"
+#import "FSIMMessageDefine.h"
+#import "FSIMMessageInfoKeys.h"
+#import "FSNSEnumTypedefine.h"
+#import "FSEventDefine.h"
+
+#import "FSBaseAPI.h"
+#import "EventHandler.h"
+#import "FSBaseRequestApi.h"
+#import "FSBaseParam.h"
+#import "FSBaseResult.h"
+#import "FSBaseRequest.h"
+#import "FSBaseServer.h"
+#import "FSBaseTokenParam.h"
+#import "FSUpgradeServer.h" // app升级信息
+
+#import "LoginSDKManager.h"
+
+#import <MJExtension/MJExtension.h>
+#import "FSSharedLanguages.h"
+#import <libRyze/libRyze.h>
+#import <Masonry/Masonry.h>
+#import <SDWebImage/SDWebImage-umbrella.h>
+#import <RongIMLib/RongIMLib.h>
+#import <LKDBHelper/LKDBHelper.h>
+#import "FSToasManager.h"
+#import "FSReportFile.h"
+#import "FSBlackListFile.h"
+
+
+// categary
+#import "NSDictionary+FSSafeAccess.h"
+#import "NSObject+FSExtension.h"
+#import "UIFont+FSProxima.h"
+#import "UIView+Loading.h"
+#import "UIViewController+Loading.h"
+#import "UIViewController+Alert.h"
+#import "Recognize+Ctrl.h"  // 获取当前视图控制器名字
+#import "UIKit+ChainProgramming.h"  // 快速UI
+#import "UIView+SetRect.h"
+#import "NSString+GamePath.h"
+#import "NSDictionary+Query.h"
+#import "NSString+JsonToDictionary.h"
+#import "NSDictionary+Observe.h"
+#import "AFHTTPRequestSerializer+Query.h"
+#import "UIViewController+FSAlertView.h"
+
+#import "FSSerialEventBuilder.h"
+
+#endif /* Ready_PrefixHeader_pch */
