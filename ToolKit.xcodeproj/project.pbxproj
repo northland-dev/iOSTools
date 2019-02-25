@@ -254,6 +254,18 @@
 		040A62BB221AB1050049DAE6 /* FSProfileImageEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A61D2221AB1040049DAE6 /* FSProfileImageEditController.m */; };
 		040A62BC221AB1050049DAE6 /* FSImageEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A61D6221AB1040049DAE6 /* FSImageEditController.m */; };
 		040A62BD221AB1050049DAE6 /* FSMessageImageEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A61DA221AB1040049DAE6 /* FSMessageImageEditController.m */; };
+		049766CA2223DA02001EFCF7 /* UITabBar+Container.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766C62223DA01001EFCF7 /* UITabBar+Container.m */; };
+		049766CB2223DA02001EFCF7 /* UITabBar+SvgaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766C82223DA01001EFCF7 /* UITabBar+SvgaItem.m */; };
+		049766D92223DA4C001EFCF7 /* UIImageView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766D72223DA4C001EFCF7 /* UIImageView+Loading.m */; };
+		049766DD2223DA63001EFCF7 /* UIScrollView+EdgePan.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766DC2223DA63001EFCF7 /* UIScrollView+EdgePan.m */; };
+		049766E02223DA93001EFCF7 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766DE2223DA93001EFCF7 /* UIButton+EnlargeEdge.m */; };
+		049766EC2223DA9F001EFCF7 /* UIButton+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766E42223DA9F001EFCF7 /* UIButton+CustomBadge.m */; };
+		049766ED2223DA9F001EFCF7 /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766E72223DA9F001EFCF7 /* UITabBar+CustomBadge.m */; };
+		049766EE2223DA9F001EFCF7 /* UIView+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766EA2223DA9F001EFCF7 /* UIView+Badge.m */; };
+		049766F22223DB59001EFCF7 /* FSMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766F02223DB59001EFCF7 /* FSMarqueeLabel.m */; };
+		049766FA2223DC86001EFCF7 /* UIViewController+DownloadProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766F52223DC86001EFCF7 /* UIViewController+DownloadProgress.m */; };
+		049766FB2223DC86001EFCF7 /* UIViewController+TopVisioClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766F62223DC86001EFCF7 /* UIViewController+TopVisioClass.m */; };
+		049766FC2223DC86001EFCF7 /* UIViewController+GCPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 049766F72223DC86001EFCF7 /* UIViewController+GCPopUp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -792,6 +804,31 @@
 		040A61D7221AB1040049DAE6 /* FSImageEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageEditController.h; sourceTree = "<group>"; };
 		040A61D9221AB1040049DAE6 /* FSMessageImageEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMessageImageEditController.h; sourceTree = "<group>"; };
 		040A61DA221AB1040049DAE6 /* FSMessageImageEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMessageImageEditController.m; sourceTree = "<group>"; };
+		049766C62223DA01001EFCF7 /* UITabBar+Container.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+Container.m"; path = "../../../../../Ready/Ready/Category/UITabbar/UITabBar+Container.m"; sourceTree = "<group>"; };
+		049766C72223DA01001EFCF7 /* UITabBar+SvgaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBar+SvgaItem.h"; path = "../../../../../Ready/Ready/Category/UITabbar/UITabBar+SvgaItem.h"; sourceTree = "<group>"; };
+		049766C82223DA01001EFCF7 /* UITabBar+SvgaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+SvgaItem.m"; path = "../../../../../Ready/Ready/Category/UITabbar/UITabBar+SvgaItem.m"; sourceTree = "<group>"; };
+		049766C92223DA02001EFCF7 /* UITabBar+Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBar+Container.h"; path = "../../../../../Ready/Ready/Category/UITabbar/UITabBar+Container.h"; sourceTree = "<group>"; };
+		049766D72223DA4C001EFCF7 /* UIImageView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Loading.m"; sourceTree = "<group>"; };
+		049766D82223DA4C001EFCF7 /* UIImageView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Loading.h"; sourceTree = "<group>"; };
+		049766DB2223DA63001EFCF7 /* UIScrollView+EdgePan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EdgePan.h"; sourceTree = "<group>"; };
+		049766DC2223DA63001EFCF7 /* UIScrollView+EdgePan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EdgePan.m"; sourceTree = "<group>"; };
+		049766DE2223DA93001EFCF7 /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+EnlargeEdge.m"; path = "../../../../../Ready/Ready/Category/UIButton/UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
+		049766DF2223DA93001EFCF7 /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+EnlargeEdge.h"; path = "../../../../../Ready/Ready/Category/UIButton/UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
+		049766E22223DA9F001EFCF7 /* UIViewBadgeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewBadgeDefine.h; sourceTree = "<group>"; };
+		049766E42223DA9F001EFCF7 /* UIButton+CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CustomBadge.m"; sourceTree = "<group>"; };
+		049766E52223DA9F001EFCF7 /* UIButton+CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CustomBadge.h"; sourceTree = "<group>"; };
+		049766E72223DA9F001EFCF7 /* UITabBar+CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+CustomBadge.m"; sourceTree = "<group>"; };
+		049766E82223DA9F001EFCF7 /* UITabBar+CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+CustomBadge.h"; sourceTree = "<group>"; };
+		049766EA2223DA9F001EFCF7 /* UIView+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Badge.m"; sourceTree = "<group>"; };
+		049766EB2223DA9F001EFCF7 /* UIView+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Badge.h"; sourceTree = "<group>"; };
+		049766F02223DB59001EFCF7 /* FSMarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMarqueeLabel.m; sourceTree = "<group>"; };
+		049766F12223DB59001EFCF7 /* FSMarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMarqueeLabel.h; sourceTree = "<group>"; };
+		049766F42223DC86001EFCF7 /* UIViewController+GCPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GCPopUp.h"; sourceTree = "<group>"; };
+		049766F52223DC86001EFCF7 /* UIViewController+DownloadProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DownloadProgress.m"; sourceTree = "<group>"; };
+		049766F62223DC86001EFCF7 /* UIViewController+TopVisioClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopVisioClass.m"; sourceTree = "<group>"; };
+		049766F72223DC86001EFCF7 /* UIViewController+GCPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GCPopUp.m"; sourceTree = "<group>"; };
+		049766F82223DC86001EFCF7 /* UIViewController+TopVisioClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopVisioClass.h"; sourceTree = "<group>"; };
+		049766F92223DC86001EFCF7 /* UIViewController+DownloadProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DownloadProgress.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -926,6 +963,10 @@
 		040A5F5B221AA1DF0049DAE6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				049766F32223DC86001EFCF7 /* UIViewController */,
+				049766E12223DA9F001EFCF7 /* Badge */,
+				049766DA2223DA63001EFCF7 /* UIScrollView */,
+				049766D62223DA4C001EFCF7 /* UIimageView */,
 				040A5F61221AA2530049DAE6 /* UITabbar */,
 				040A5F60221AA2470049DAE6 /* UIimage */,
 				040A5F5F221AA2320049DAE6 /* UIbarButtonItem */,
@@ -942,6 +983,8 @@
 		040A5F5C221AA1FE0049DAE6 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				049766DF2223DA93001EFCF7 /* UIButton+EnlargeEdge.h */,
+				049766DE2223DA93001EFCF7 /* UIButton+EnlargeEdge.m */,
 				040A5F40221AA1C80049DAE6 /* UIButton+EnlargeTouchArea.h */,
 				040A5F3A221AA1C70049DAE6 /* UIButton+EnlargeTouchArea.m */,
 			);
@@ -993,6 +1036,10 @@
 		040A5F61221AA2530049DAE6 /* UITabbar */ = {
 			isa = PBXGroup;
 			children = (
+				049766C92223DA02001EFCF7 /* UITabBar+Container.h */,
+				049766C62223DA01001EFCF7 /* UITabBar+Container.m */,
+				049766C72223DA01001EFCF7 /* UITabBar+SvgaItem.h */,
+				049766C82223DA01001EFCF7 /* UITabBar+SvgaItem.m */,
 				040A5F48221AA1C80049DAE6 /* UITabBar+Awesome.h */,
 				040A5F39221AA1C70049DAE6 /* UITabBar+Awesome.m */,
 			);
@@ -1600,6 +1647,7 @@
 		040A6031221AB1040049DAE6 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				049766EF2223DB58001EFCF7 /* UILabel */,
 				040A6032221AB1040049DAE6 /* popupViewController */,
 				040A6040221AB1040049DAE6 /* LoadingView */,
 				040A6049221AB1040049DAE6 /* FSPurchaseKit */,
@@ -2729,6 +2777,88 @@
 			path = MessageImageEdit;
 			sourceTree = "<group>";
 		};
+		049766D62223DA4C001EFCF7 /* UIimageView */ = {
+			isa = PBXGroup;
+			children = (
+				049766D72223DA4C001EFCF7 /* UIImageView+Loading.m */,
+				049766D82223DA4C001EFCF7 /* UIImageView+Loading.h */,
+			);
+			name = UIimageView;
+			path = ../../../../Ready/Ready/Category/UIimageView;
+			sourceTree = "<group>";
+		};
+		049766DA2223DA63001EFCF7 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				049766DB2223DA63001EFCF7 /* UIScrollView+EdgePan.h */,
+				049766DC2223DA63001EFCF7 /* UIScrollView+EdgePan.m */,
+			);
+			name = UIScrollView;
+			path = ../../../../Ready/Ready/Category/UIScrollView;
+			sourceTree = "<group>";
+		};
+		049766E12223DA9F001EFCF7 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				049766E22223DA9F001EFCF7 /* UIViewBadgeDefine.h */,
+				049766E32223DA9F001EFCF7 /* Uibutton+Badge */,
+				049766E62223DA9F001EFCF7 /* UITabbar+Badge */,
+				049766E92223DA9F001EFCF7 /* UIView+Badge */,
+			);
+			name = Badge;
+			path = ../../../../Ready/Ready/Category/Badge;
+			sourceTree = "<group>";
+		};
+		049766E32223DA9F001EFCF7 /* Uibutton+Badge */ = {
+			isa = PBXGroup;
+			children = (
+				049766E42223DA9F001EFCF7 /* UIButton+CustomBadge.m */,
+				049766E52223DA9F001EFCF7 /* UIButton+CustomBadge.h */,
+			);
+			path = "Uibutton+Badge";
+			sourceTree = "<group>";
+		};
+		049766E62223DA9F001EFCF7 /* UITabbar+Badge */ = {
+			isa = PBXGroup;
+			children = (
+				049766E72223DA9F001EFCF7 /* UITabBar+CustomBadge.m */,
+				049766E82223DA9F001EFCF7 /* UITabBar+CustomBadge.h */,
+			);
+			path = "UITabbar+Badge";
+			sourceTree = "<group>";
+		};
+		049766E92223DA9F001EFCF7 /* UIView+Badge */ = {
+			isa = PBXGroup;
+			children = (
+				049766EA2223DA9F001EFCF7 /* UIView+Badge.m */,
+				049766EB2223DA9F001EFCF7 /* UIView+Badge.h */,
+			);
+			path = "UIView+Badge";
+			sourceTree = "<group>";
+		};
+		049766EF2223DB58001EFCF7 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				049766F02223DB59001EFCF7 /* FSMarqueeLabel.m */,
+				049766F12223DB59001EFCF7 /* FSMarqueeLabel.h */,
+			);
+			name = UILabel;
+			path = ../../../../Ready/Ready/Graphics/UILabel;
+			sourceTree = "<group>";
+		};
+		049766F32223DC86001EFCF7 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				049766F42223DC86001EFCF7 /* UIViewController+GCPopUp.h */,
+				049766F52223DC86001EFCF7 /* UIViewController+DownloadProgress.m */,
+				049766F62223DC86001EFCF7 /* UIViewController+TopVisioClass.m */,
+				049766F72223DC86001EFCF7 /* UIViewController+GCPopUp.m */,
+				049766F82223DC86001EFCF7 /* UIViewController+TopVisioClass.h */,
+				049766F92223DC86001EFCF7 /* UIViewController+DownloadProgress.h */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2868,6 +2998,7 @@
 				040A6295221AB1050049DAE6 /* FSConversation.m in Sources */,
 				040A61F2221AB1040049DAE6 /* FSAlert.m in Sources */,
 				040A620F221AB1040049DAE6 /* FSConfigSever.m in Sources */,
+				049766CA2223DA02001EFCF7 /* UITabBar+Container.m in Sources */,
 				040A6212221AB1040049DAE6 /* FSConfigAPI.m in Sources */,
 				040A6273221AB1050049DAE6 /* FSIMLollyPicBePayed.m in Sources */,
 				040A6260221AB1050049DAE6 /* RCGameFriendStateContent.m in Sources */,
@@ -2919,6 +3050,7 @@
 				040A6240221AB1050049DAE6 /* CDPAudioRecorder.m in Sources */,
 				040A62A0221AB1050049DAE6 /* ZJSegmentStyle.m in Sources */,
 				040A62B0221AB1050049DAE6 /* FSPhotoBrowserController.m in Sources */,
+				049766ED2223DA9F001EFCF7 /* UITabBar+CustomBadge.m in Sources */,
 				040A6230221AB1050049DAE6 /* FSProductMananger.m in Sources */,
 				040A6209221AB1040049DAE6 /* FSVerticalAlertView.m in Sources */,
 				040A62A4221AB1050049DAE6 /* FSCheckCameraPrivileges.m in Sources */,
@@ -2948,6 +3080,7 @@
 				040A6279221AB1050049DAE6 /* FSIMAgreeAddFriednsContent.m in Sources */,
 				040A61E0221AB1040049DAE6 /* NSMutableDictionary+Utility.m in Sources */,
 				040A625F221AB1050049DAE6 /* FSVpBalanceData.m in Sources */,
+				049766F22223DB59001EFCF7 /* FSMarqueeLabel.m in Sources */,
 				040A5EF7221AA0AD0049DAE6 /* ViewController.m in Sources */,
 				040A62A5221AB1050049DAE6 /* FSSystemPrivilegesFactory.m in Sources */,
 				040A6218221AB1040049DAE6 /* FSBaseRequestResult.m in Sources */,
@@ -2972,7 +3105,9 @@
 				040A6292221AB1050049DAE6 /* FSMessageReceiptSever.m in Sources */,
 				040A6233221AB1050049DAE6 /* FSFaildPaymentsMananger.m in Sources */,
 				040A627D221AB1050049DAE6 /* RCFriendOnlineContent.m in Sources */,
+				049766E02223DA93001EFCF7 /* UIButton+EnlargeEdge.m in Sources */,
 				040A6245221AB1050049DAE6 /* TYViewStorage.m in Sources */,
+				049766FB2223DC86001EFCF7 /* UIViewController+TopVisioClass.m in Sources */,
 				040A621E221AB1050049DAE6 /* FSMessageUnRead.m in Sources */,
 				040A620A221AB1040049DAE6 /* FSCornerGradientButton.m in Sources */,
 				040A6247221AB1050049DAE6 /* NSMutableAttributedString+TY.m in Sources */,
@@ -3010,8 +3145,10 @@
 				040A61E5221AB1040049DAE6 /* FSCollectionView.m in Sources */,
 				040A6253221AB1050049DAE6 /* FSRequestTokenAPI.m in Sources */,
 				040A5F56221AA1C80049DAE6 /* NSDictionary+FSSafeAccess.m in Sources */,
+				049766EE2223DA9F001EFCF7 /* UIView+Badge.m in Sources */,
 				040A6237221AB1050049DAE6 /* FSAudioAnimation.m in Sources */,
 				040A6276221AB1050049DAE6 /* FSIMActivityAwardPoolEnd.m in Sources */,
+				049766FC2223DC86001EFCF7 /* UIViewController+GCPopUp.m in Sources */,
 				040A5F4D221AA1C80049DAE6 /* UIBezierPath+ShadowPath.m in Sources */,
 				040A6266221AB1050049DAE6 /* RCUnFriendContent.m in Sources */,
 				040A62A8221AB1050049DAE6 /* FSSystemPrivilegesCheck.m in Sources */,
@@ -3026,10 +3163,13 @@
 				040A6227221AB1050049DAE6 /* LewPopupBackgroundView.m in Sources */,
 				040A6239221AB1050049DAE6 /* CBAutoScrollLabel.m in Sources */,
 				040A6277221AB1050049DAE6 /* RCActivityAwardPoolEnd.m in Sources */,
+				049766D92223DA4C001EFCF7 /* UIImageView+Loading.m in Sources */,
+				049766FA2223DC86001EFCF7 /* UIViewController+DownloadProgress.m in Sources */,
 				040A62AA221AB1050049DAE6 /* FSCheckSystemPrivileges.m in Sources */,
 				040A6205221AB1040049DAE6 /* FSTabBarItem.m in Sources */,
 				040A6211221AB1040049DAE6 /* FSConfigResult.m in Sources */,
 				040A626D221AB1050049DAE6 /* RCGameInviteAcceptContent.m in Sources */,
+				049766DD2223DA63001EFCF7 /* UIScrollView+EdgePan.m in Sources */,
 				040A61E9221AB1040049DAE6 /* FSMarqueeLabel.m in Sources */,
 				040A6223221AB1050049DAE6 /* UIViewController+LewPopupViewController.m in Sources */,
 				040A6270221AB1050049DAE6 /* FSGameRejectContent.m in Sources */,
@@ -3052,9 +3192,11 @@
 				040A6272221AB1050049DAE6 /* FSIMBaseModelContent.m in Sources */,
 				040A61FA221AB1040049DAE6 /* FSWeakFriendBridge.m in Sources */,
 				040A62B7221AB1050049DAE6 /* FSPhotoSelector.m in Sources */,
+				049766EC2223DA9F001EFCF7 /* UIButton+CustomBadge.m in Sources */,
 				040A61E1221AB1040049DAE6 /* Utility.m in Sources */,
 				040A625C221AB1050049DAE6 /* RCGameMathRobotContent.m in Sources */,
 				040A6215221AB1040049DAE6 /* FSStaticJsonSever.m in Sources */,
+				049766CB2223DA02001EFCF7 /* UITabBar+SvgaItem.m in Sources */,
 				040A6224221AB1050049DAE6 /* LewPopupViewAnimationSpring.m in Sources */,
 				040A6287221AB1050049DAE6 /* FSIMCommonMessage.m in Sources */,
 				040A6243221AB1050049DAE6 /* TYLinkTextStorage.m in Sources */,
